@@ -1,0 +1,9 @@
+services:
+    website:
+        image: ${IMAGE_NAME}
+        container_name: ${CONTAINER_NAME}
+        volumes:
+            - ./volumes/html:/usr/share/nginx/html:ro
+        ports:
+            - 80:80
+        restart: always
