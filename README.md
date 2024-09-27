@@ -10,5 +10,5 @@ docker compose up -d
 
 Data are persisted locally:
 ```
-./volumes/static-data
+./volumes/html
 ```
